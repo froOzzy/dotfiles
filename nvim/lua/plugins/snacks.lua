@@ -1,12 +1,12 @@
 return {
   "folke/snacks.nvim",
   opts = {
-    sources = {
-      picker = {
+    picker = {
+      sources = {
         grep = {
           regex = false,
         },
       },
     },
   },
- }
+}
