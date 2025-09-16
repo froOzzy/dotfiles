@@ -1,4 +1,4 @@
-general.import = ["dracula.toml"]
+general.import = ["catppuccin-frappe.toml"]
 
 [window]
 opacity = 0.9
