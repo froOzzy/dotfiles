@@ -3,5 +3,5 @@
 # the 'login' configuration file (see /etc/pam.d/login)
 #
 
-auth sufficient pam_google_authenticator.so
-auth include login
+auth      required  pam_google_authenticator.so forward_pass
+auth      include   system-login
